@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Cultural Tour",
+    "image": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
+    "description": "Explore the rich cultural heritage of the region with our expert guides.",
+    "rating": 4.5,
+    "price": 150,
+    "duration": "5 hours",
+    "location": "City Center",
+    "category": "Tour"
+  },
+  {
+    "id": 2,
+    "name": "Mountain Hiking on the Peak and half day tour of the city",
+    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    "description": "Experience the thrill of mountain hiking with breathtaking views.",
+    "rating": 4.8,
+    "price": 200,
+    "duration": "8 hours",
+    "location": "Mountain Range",
+    "category": "Adventure"
+  },
+  {
+    "id": 3,
+    "name": "Cooking Class",
+    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9",
+    "description": "Learn to cook traditional dishes with our professional chefs.",
+    "rating": 4.9,
+    "price": 100,
+    "duration": "3 hours",
+    "location": "Cooking Studio",
+    "category": "Activity"
+  },
+  {
+    "id": 4,
+    "name": "Beach Relaxation",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "description": "Enjoy a relaxing day at the beach with all amenities provided.",
+    "rating": 4.7,
+    "price": 120,
+    "duration": "6 hours",
+    "location": "Beach Resort",
+    "category": "Leisure"
+  },
+  {
+    "id": 5,
+    "name": "City Sightseeing",
+    "image": "https://images.unsplash.com/photo-1543269664-76bc3997d9ea",
+    "description": "Discover the main attractions of the city with a guided tour.",
+    "rating": 4.6,
+    "price": 80,
+    "duration": "4 hours",
+    "location": "City",
+    "category": "Tour"
+  },
+  {
+    "id": 6,
+    "name": "Wine Tasting",
+    "image": "https://images.unsplash.com/photo-1541544181270-8a7800f3b8c1",
+    "description": "Taste a selection of fine wines at our exclusive wine tasting event.",
+    "rating": 4.9,
+    "price": 130,
+    "duration": "3 hours",
+    "location": "Vineyard",
+    "category": "Gastronomy"
+  },
+  {
+    "id": 7,
+    "name": "Art Workshop",
+    "image": "https://images.unsplash.com/photo-1533077169882-3c0d4e497eea",
+    "description": "Unleash your creativity in our hands-on art workshop.",
+    "rating": 4.5,
+    "price": 90,
+    "duration": "4 hours",
+    "location": "Art Studio",
+    "category": "Activity"
+  },
+  {
+    "id": 8,
+    "name": "Safari Adventure",
+    "image": "https://images.unsplash.com/photo-1504274066651-8f4e891be2c7",
+    "description": "Join our safari adventure and see wildlife in their natural habitat.",
+    "rating": 4.8,
+    "price": 250,
+    "duration": "10 hours",
+    "location": "Safari Park",
+    "category": "Adventure"
+  },
+  {
+    "id": 9,
+    "name": "Yoga Retreat",
+    "image": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
+    "description": "Relax and rejuvenate with our yoga retreat program in a peaceful setting.",
+    "rating": 4.7,
+    "price": 180,
+    "duration": "6 hours",
+    "location": "Yoga Center",
+    "category": "Wellness"
+  },
+  {
+    "id": 10,
+    "name": "Cruise Excursion",
+    "image": "https://images.unsplash.com/photo-1532568404087-70e8dc47e24b",
+    "description": "Embark on a cruise excursion to explore the beautiful coastline.",
+    "rating": 4.6,
+    "price": 220,
+    "duration": "8 hours",
+    "location": "Port",
+    "category": "Leisure"
+  },
+  {
+    "id": 11,
+    "name": "Historical Tour",
+    "image": "https://images.unsplash.com/photo-1484332223853-f87cfd14c9f5",
+    "description": "Learn about the history of the region with our expert guides.",
+    "rating": 4.5,
+    "price": 150,
+    "duration": "5 hours",
+    "location": "Historical Sites",
+    "category": "Tour"
+  },
+  {
+    "id": 12,
+    "name": "Rock Climbing",
+    "image": "https://images.unsplash.com/photo-1542332213-0bc1889bfa3e",
+    "description": "Challenge yourself with rock climbing in a stunning natural setting.",
+    "rating": 4.8,
+    "price": 200,
+    "duration": "8 hours",
+    "location": "Rock Climbing Center",
+    "category": "Adventure"
+  },
+  {
+    "id": 13,
+    "name": "Dance Class",
+    "image": "https://images.unsplash.com/photo-1480455454781-1af590be2f14",
+    "description": "Learn to dance like a pro with our experienced instructors.",
+    "rating": 4.9,
+    "price": 100,
+    "duration": "3 hours",
+    "location": "Dance Studio",
+    "category": "Activity"
+  },
+  {
+    "id": 14,
+    "name": "Spa Retreat",
+    "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528",
+    "description": "Indulge in a day of pampering and relaxation at our luxury spa.",
+    "rating": 4.7,
+    "price": 120,
+    "duration": "6 hours",
+    "location": "Spa Resort",
+    "category": "Wellness"
+  },
+  {
+    "id": 15,
+    "name": "Shopping Tour",
+    "image": "https://images.unsplash.com/photo-1512295767273-ac3535d5ef34",
+    "description": "Shop till you drop with our shopping tour to the best boutiques.",
+    "rating": 4.6,
+    "price": 80,
+    "duration": "4 hours",
+    "location": "Shopping District",
+    "category": "Leisure"
+  },
+  {
+    "id": 16,
+    "name": "Wine Tasting",
+    "image": "https://images.unsplash.com/photo-1541544181270-8a7800f3b8c1",
+    "description": "Taste a selection of fine wines at our exclusive wine tasting event.",
+    "rating": 4.9,
+    "price": 130,
+    "duration": "3 hours",
+    "location": "Vineyard",
+    "category": "Gastronomy"
+  },
+  {
+    "id": 17,
+    "name": "Photography Workshop",
+    "image": "https://images.unsplash.com/photo-1518673833706-47a10b0e4e29",
+    "description": "Capture stunning images with our professional photography workshop.",
+    "rating": 4.5,
+    "price": 150,
+    "duration": "5 hours",
+    "location": "Photography Studio",
+    "category": "Photography"
+  },
+  {
+    "id": 18,
+    "name": "Nightlife Tour",
+    "image": "https://images.unsplash.com/photo-1519975254161-59dfbe3f1a63",
+    "description": "Experience the vibrant nightlife with our exclusive tour.",
+    "rating": 4.8,
+    "price": 100,
+    "duration": "5 hours",
+    "location": "Downtown",
+    "category": "Nightlife"
+  },
+  {
+    "id": 19,
+    "name": "Road Trip Adventure",
+    "image": "https://images.unsplash.com/photo-1527169402691-feff5539e52c",
+    "description": "Hit the road and explore new destinations with our road trip adventure.",
+    "rating": 4.7,
+    "price": 300,
+    "duration": "12 hours",
+    "location": "Highway",
+    "category": "Road Trips"
+  },
+  {
+    "id": 20,
+    "name": "Wildlife Safari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "description": "Get up close with wildlife on our exciting safari tour.",
+    "rating": 4.9,
+    "price": 250,
+    "duration": "10 hours",
+    "location": "National Park",
+    "category": "Wildlife"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Cultural Tour",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "review": "Explore the rich cultural heritage of the region with our expert guides.",
+    "rating": 4.5
+  },
+  {
+    "name": "Mountain Hiking",
+    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    "review": "Experience the thrill of mountain hiking with breathtaking views.",
+    "rating": 4.8
+  },
+  {
+    "name": "Cooking Class",
+    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9",
+    "review": "Learn to cook traditional dishes with our professional chefs.",
+    "rating": 4.9
+  },
+  {
+    "name": "Beach Relaxation",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "review": "Enjoy a relaxing day at the beach with all amenities provided.",
+    "rating": 4.7
+  },
+  {
+    "name": "City Sightseeing",
+    "image": "https://images.unsplash.com/photo-1543269664-76bc3997d9ea",
+    "review": "Discover the main attractions of the city with a guided tour.",
+    "rating": 4.6
+  },
+  {
+    "name": "Wine Tasting",
+    "image": "https://images.unsplash.com/photo-1541544181270-8a7800f3b8c1",
+    "review": "Taste a selection of fine wines at our exclusive wine tasting event.",
+    "rating": 4.9
+  },
+  {
+    "name": "Art Workshop",
+    "image": "https://images.unsplash.com/photo-1533077169882-3c0d4e497eea",
+    "review": "Unleash your creativity in our hands-on art workshop.",
+    "rating": 4.5
+  },
+  {
+    "name": "Safari Adventure",
+    "image": "https://images.unsplash.com/photo-1504274066651-8f4e891be2c7",
+    "review": "Join our safari adventure and see wildlife in their natural habitat.",
+    "rating": 4.8
+  },
+  {
+    "name": "Yoga Retreat",
+    "image": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
+    "review": "Relax and rejuvenate with our yoga retreat program in a peaceful setting.",
+    "rating": 4.7
+  },
+  {
+    "name": "Cruise Excursion",
+    "image": "https://images.unsplash.com/photo-1532568404087-70e8dc47e24b",
+    "review": "Embark on a cruise excursion to explore the beautiful coastline.",
+    "rating": 4.6
+  },
+  {
+    "name": "Historical Tour",
+    "image": "https://images.unsplash.com/photo-1484332223853-f87cfd14c9f5",
+    "review": "Learn about the history of the region with our expert guides.",
+    "rating": 4.5
+  },
+  {
+    "name": "Rock Climbing",
+    "image": "https://images.unsplash.com/photo-1542332213-0bc1889bfa3e",
+    "review": "Challenge yourself with rock climbing in a stunning natural setting.",
+    "rating": 4.8
+  },
+  {
+    "name": "Dance Class",
+    "image": "https://images.unsplash.com/photo-1480455454781-1af590be2f14",
+    "review": "Learn to dance like a pro with our experienced instructors.",
+    "rating": 4.9
+  },
+  {
+    "name": "Spa Retreat",
+    "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528",
+    "review": "Indulge in a day of pampering and relaxation at our luxury spa.",
+    "rating": 4.7
+  },
+  {
+    "name": "Shopping Tour",
+    "image": "https://images.unsplash.com/photo-1512295767273-ac3535d5ef34",
+    "review": "Shop till you drop with our shopping tour to the best boutiques.",
+    "rating": 4.6
+  },
+  {
+    "name": "Photography Workshop",
+    "image": "https://images.unsplash.com/photo-1518673833706-47a10b0e4e29",
+    "review": "Capture stunning images with our professional photography workshop.",
+    "rating": 4.5
+  },
+  {
+    "name": "Nightlife Tour",
+    "image": "https://images.unsplash.com/photo-1519975254161-59dfbe3f1a63",
+    "review": "Experience the vibrant nightlife with our exclusive tour.",
+    "rating": 4.8
+  },
+  {
+    "name": "Road Trip Adventure",
+    "image": "https://images.unsplash.com/photo-1527169402691-feff5539e52c",
+    "review": "Hit the road and explore new destinations with our road trip adventure.",
+    "rating": 4.7
+  },
+  {
+    "name": "Wildlife Safari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "review": "Get up close with wildlife on our exciting safari tour.",
+    "rating": 4.9
+  }
+]

@@ -5,87 +5,29 @@ import React from 'react'
 import { Text, StyleSheet, View, TouchableOpacity, Image, TextInput } from 'react-native'
 import { useHeaderHeight } from '@react-navigation/elements'
 import CategoryButtons from '@/components/CategoryButtons'
-
+import Listing from '@/components/Listing'
+import ListingData from '@/data/destination.json'
+import ListingGroup from '@/data/groups.json'
+import GroupListing from '@/components/GroupListing'
 
 const Page = () => {
 
     const headerHeight = useHeaderHeight()
+    const [activeCategory, setActiveCategory] = React.useState('All')
+
+    const onCatChange = (category: string) => {
+        setActiveCategory(category)
+        console.log(category)
+
+
+
+    }
+
 
     return (
         <>
+
             <Stack.Screen
-                options={{
-                    headerTransparent: true,
-                    headerTitle: '',
-                    headerLeft: () => (
-                        <TouchableOpacity onPress={() => { }}
-                            style={{ marginLeft: 20 }}
-                        >
-                            <Image source={{
-                                uri: 'https://xsgames.co/randomusers/avatar.php?g=female',
-                            }}
-                                style={{ width: 50, height: 50, borderRadius: 10 }}
-                            />
-                        </TouchableOpacity>
-
-                    ),
-                    headerRight: () => (
-                        <TouchableOpacity onPress={() => { }}
-                            style={{
-                                marginRight: 20,
-                                backgroundColor: Colors.white,
-                                padding: 10,
-                                borderRadius: 10,
-                                shadowColor: "#171717",
-                                shadowOffset: { width: 4, height: 8 },
-                                shadowOpacity: 0.2,
-                                shadowRadius: 5,
-                            }}
-                        >
-                            <Ionicons name='notifications' size={24} color='black' />
-
-                        </TouchableOpacity>
-                    )
-                }}
-            >
-
-            </Stack.Screen><Stack.Screen
-                options={{
-                    headerTransparent: true,
-                    headerTitle: '',
-                    headerLeft: () => (
-                        <TouchableOpacity onPress={() => { }}
-                            style={{ marginLeft: 20 }}
-                        >
-                            <Image source={{
-                                uri: 'https://xsgames.co/randomusers/avatar.php?g=female',
-                            }}
-                                style={{ width: 50, height: 50, borderRadius: 10 }}
-                            />
-                        </TouchableOpacity>
-
-                    ),
-                    headerRight: () => (
-                        <TouchableOpacity onPress={() => { }}
-                            style={{
-                                marginRight: 20,
-                                backgroundColor: Colors.white,
-                                padding: 10,
-                                borderRadius: 10,
-                                shadowColor: "#171717",
-                                shadowOffset: { width: 4, height: 8 },
-                                shadowOpacity: 0.2,
-                                shadowRadius: 5,
-                            }}
-                        >
-                            <Ionicons name='notifications' size={24} color='black' />
-
-                        </TouchableOpacity>
-                    )
-                }}
-            >
-
-            </Stack.Screen><Stack.Screen
                 options={{
                     headerTransparent: true,
                     headerTitle: '',
@@ -143,7 +85,9 @@ const Page = () => {
                     </TouchableOpacity>
                 </View>
 
-                <CategoryButtons />
+                <CategoryButtons onCatChange={onCatChange} />
+                <Listing listings={ListingData} activeCategory={activeCategory} />
+                <GroupListing listings={ListingGroup} />
             </View >
         </>
     )

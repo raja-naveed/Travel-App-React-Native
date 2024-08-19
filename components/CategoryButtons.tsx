@@ -4,7 +4,12 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React, { useRef, useState } from 'react';
 import { Text, StyleSheet, View, ScrollView, TouchableOpacity } from 'react-native';
 
-const CategoryButtons = () => {
+type Props = {
+    onCatChange: (category: string) => void;
+};
+
+
+const CategoryButtons = ({ onCatChange }: Props) => {
     const scrollRef = useRef<ScrollView>(null);
     const itemRef = useRef<TouchableOpacity[] | null[]>([]);
     const [activeIndex, setActiveIndex] = useState(0);
@@ -13,9 +18,14 @@ const CategoryButtons = () => {
         const selected = itemRef.current[index];
         setActiveIndex(index);
 
-        selected?.measure((x) => {
-            scrollRef.current?.scrollTo({ x: x, y: 0, animated: true });
-        });
+        selected?.measureLayout(
+            scrollRef.current,
+            (x, y, width, height) => {
+                scrollRef.current?.scrollTo({ x: x, y: 0, animated: true });
+            },
+            () => { }
+        );
+        onCatChange && onCatChange(categories[index].name);
     };
 
     return (
